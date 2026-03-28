@@ -1,0 +1,3 @@
+# Optional local AI dependency
+# Install only when using provider=ollama locally.
+ollama>=0.4.0,<1.0.0

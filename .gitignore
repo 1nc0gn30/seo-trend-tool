@@ -1,0 +1,48 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+.streamlit/secrets.toml
+
+# Local outputs
+seo_opportunities.csv
+seo_opportunities_ranked.csv
+seo_opportunities_batched.csv
+seed_summary.csv
+title_ideas.csv
+seo_brief.md
+keywords.cleaned.txt
+keywords.expanded.txt
+*.log
+
+# Node leftovers (repo has package-lock.json)
+node_modules/
+npm-debug.log*
